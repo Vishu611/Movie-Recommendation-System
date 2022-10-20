@@ -13,3 +13,5 @@ A movie recommendation system, also known as a movie recommender system, is an M
 4) Consider the reviews of the inputted movie and calulate the % of good reviews
 5) Create a metric using steps 3 & 4 and then suggest movies based on that
 
+**Sample Output**
+<img width="712" alt="Screenshot 2022-10-20 at 1 41 01 PM" src="https://user-images.githubusercontent.com/109312561/197031304-c221ffd7-19fe-420e-9691-da2cbfba171b.png">
