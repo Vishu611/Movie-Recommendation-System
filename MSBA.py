@@ -17,12 +17,9 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 import re
-import pandas as pd
 import os
 import seaborn as sns
-from selenium import webdriver 
 import sys
-import pandas as pd
 import nltk
 # nltk.download('punkt')
 # nltk.download('stopwords')
@@ -36,13 +33,10 @@ from nltk.corpus import wordnet
 from scipy.stats import rankdata
 from sklearn.linear_model import LinearRegression
 from scrapy.selector import Selector
-from selenium import webdriver 
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import time
 from tqdm import tqdm
 import warnings
-import time
 import concurrent.futures
 
 warnings.filterwarnings("ignore")
@@ -109,9 +103,6 @@ movie = input("Movie_Name")
 data
 
 data['title'].nunique()
-
-# load the nlp model and tfidf vectorizer from disk
-import pickle
 
     
 filename = 'nlp_model.pkl'
